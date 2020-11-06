@@ -1,1 +1,1 @@
-web: gunicorn samchitam_ui:app
+web: gunicorn app:app
