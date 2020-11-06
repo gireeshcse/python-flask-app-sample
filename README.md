@@ -31,8 +31,8 @@ flask run --host=0.0.0.0 --port=4000
 * Set **Config Vars** in settings of the app which contains .env fields with heroku app envionment settings
 
 ```
-web: gunicorn samchitam_ui:app
+web: gunicorn run:app
 ```
 
-* **samchitam_ui** is the name of the module
+* **run** run.py
 * **app** is the name of the app 
